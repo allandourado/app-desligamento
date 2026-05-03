@@ -1,0 +1,26 @@
+{
+  "name": "avalia-o-de-desligamento",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "file-saver": "^2.0.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "jszip": "^3.10.1",
+    "lucide": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.7",
+    "@types/jspdf": "^1.3.3",
+    "@types/jszip": "^3.4.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.10",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
